@@ -1,0 +1,18 @@
+#cadastro {
+   position : absolute;
+   top: 49%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+#login {
+  position : absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.menu{
+  position : absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
