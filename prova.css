@@ -1,0 +1,81 @@
+
+p2{
+    color: blueviolet;
+    margin-top: 5px;
+}
+body{
+    background-color: white;
+
+}
+.qBox{
+   width: 500px;
+   height: 100px;
+   border: 2px solid black  
+}
+ .pause {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .q1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .q2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .q3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .q4 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .q5 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+    
+    
