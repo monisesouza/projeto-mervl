@@ -10,15 +10,16 @@
   margin-right: auto;
   width: 10%;
 }
-.body{
-  background-image: url(fundo.png)
-}
 
 #login {
   position : absolute;
   top: 49%;
   left: 50%;
   transform: translate(-50%, -50%)
+}
+body{
+  background-image: url(fundo_prova.png)
+
 }
 .menu{
   position : absolute;
@@ -27,9 +28,9 @@
   transform: translate(-50%, -50%)
 }
 .b1 {
-  background-color: #002b80;
+  background-color: white;
   border: none;
-  color: white;
+  color:black;
   display: block;
   padding: 15px 20px;
   text-align: center;
@@ -38,9 +39,9 @@
   border-radius: 8px;
 }
 .b2 {
-  background-color: #002b80;
+  background-color: white;
   border: none;
-  color: white;
+  color: black;
   display: block;
   padding: 15px 20px;
   text-align: center;
@@ -49,9 +50,9 @@
   border-radius: 8px;
 }
 .b3 {
-  background-color: #002b80;
+  background-color:white;
   border: none;
-  color: white;
+  color: black;
   display: block;
   padding: 15px 20px;
   text-align: center;
