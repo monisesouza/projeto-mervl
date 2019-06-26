@@ -10,6 +10,9 @@
   margin-right: auto;
   width: 10%;
 }
+.body{
+  background-image: url(fundo.png)
+}
 
 #login {
   position : absolute;
@@ -55,4 +58,16 @@
   font-size: 15px;
   cursor: pointer;
   border-radius: 8px;
+}
+.lalala h1{
+  position : absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.lalala h2{
+  position : absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
