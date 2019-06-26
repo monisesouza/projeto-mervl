@@ -1,0 +1,58 @@
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+  .foto {
+    
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 17%;
+    
+  }
+body{
+    background-image: url(fundo_prova.png)
+
+}
+.grid-item {
+  background-color: #e0e7ea;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-size: 30
+}
+.grid-item2 {
+  background-color: #e0e7ea;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+#rectangle{
+    
+  width:80%;
+    height:75%;
+    background:#e0e7ea;
+}
+.boxinvi{
+    background-color: #e0e7ea;
+    
+}
+.q1 {
+  background-color: #002b80;
+  border: none;
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+ 
