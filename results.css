@@ -1,0 +1,294 @@
+.site-header {
+  height: 70vh; /* height in viewport height units: 100 vh is full screen height */
+  background-image: url("fundo.png");
+  background-size: 100% 100%;
+  color: white; /* text colour */
+  display: flex; /* turn on flex box */
+  justify-content: center; /* now we are using flexbox, move content into the middle of the box vertically */
+  align-items: center; /* again, use a flexbox command to center content in the box */
+}
+/* see and style our header content div */
+.site-header__content {
+ 
+  min-width: 200px;
+  text-align: center;
+}
+#image{
+	width: 500px;
+	height: 500px;
+}
+
+}
+/* styling the h1 tag, including the space around it */
+.site-header__content h1 {
+  font-style: italic;
+  margin:0; padding:0;
+}
+/* controlling the space around the (optional) paragraph under the h1 */
+.site-header__content p {margin:0; padding:10px 0 0 0; color: black;}
+.site {
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  
+  background-image: url("fundo.png");
+	background-size: 100% 100%;
+}
+.site > * {
+  flex: 0 0 auto;
+  margin: 1rem;
+}
+
+
+.circlePro {
+  --value: 75%;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle closest-side,
+      #202020 92%,
+      transparent 92.5% /* + 0.5% to avoid ugly border */
+    ),
+    conic-gradient(
+      #21d9ab var(--value),
+      #444444 var(--value)
+    )
+  ;
+}
+.circlePr {
+  --value: 50%;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle closest-side,
+      #202020 92%,
+      transparent 92.5% /* + 0.5% to avoid ugly border */
+    ),
+    conic-gradient(
+      #21d9ab var(--value),
+      #444444 var(--value)
+    )
+  ;
+}
+.circleP {
+  --value: 21%;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle closest-side,
+      #202020 92%,
+      transparent 92.5% /* + 0.5% to avoid ugly border */
+    ),
+    conic-gradient(
+      #21d9ab var(--value),
+      #444444 var(--value)
+    )
+  ;
+}
+.circle {
+  --value: 66%;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle closest-side,
+      #202020 92%,
+      transparent 92.5% /* + 0.5% to avoid ugly border */
+    ),
+    conic-gradient(
+      #21d9ab var(--value),
+      #444444 var(--value)
+    )
+  ;
+}
+#link{
+	color: white;
+}
+
+.footer{
+   position: absolute;
+  top:120%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+a {
+  
+  display :block;
+  text-decoration: none;
+  margin:20px;
+  
+  
+}
+/*the first button*/
+.a1{
+    position: relative;
+    background: linear-gradient(to right, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size:400%;
+    border-radius:30px;
+    
+    width: 200px;
+    height: 60px;
+    line-height:60px;
+    text-align:center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color:#fff;
+    font-size:20px;
+}
+.a1:hover{
+    animation:  a  8s linear Infinite;
+}
+.a1:before{
+   content:"";
+   background: linear-gradient(to   right,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size:400%;
+  position: absolute;
+  top:-5px;
+  right: -5px;
+  left: -5px;
+  bottom:-5px;
+  z-index: -1;
+  border-radius:40px;
+  filter: blur(20px);
+  opacity: 0;
+  transition:0.5s;
+}
+.a1:hover:before{
+  opacity: 1;
+  filter: blur(20px);
+  animation:  a  8s linear Infinite;
+}
+@keyframes a {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
+}
+/*the second button*/
+.a2{
+    
+  position: relative;
+    width: 200px;
+    height: 60px;
+    line-height:60px;
+    text-align:center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color:#fff;
+    font-size:20px;
+    border:1px solid #fff;
+    border-radius:30px;
+    transition: all 0.5s ease  ;
+}
+.a2:before{
+   content:"";
+  position: absolute;
+  background: linear-gradient(to   right,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+   background-size:400%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 0%;
+  transition:all 0.6s ease  ;
+  z-index: -1;
+  border-radius:30px;
+}
+.a2:after{
+   content:"";
+   background: linear-gradient(to   right,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size:400%;
+  position: absolute;
+  top:-5px;
+  right: -5px;
+  left: -5px;
+  bottom:-5px;
+  z-index: -1;
+  border-radius:40px;
+  filter: blur(20px);
+  opacity: 0;
+  transition:0.5s;
+}
+.a2:hover{
+  border:1px solid transparent;
+}
+.a2:hover:before{
+    height: 100%;
+  animation:  a 8s linear Infinite;
+}
+.a2:hover:after{
+    opacity: 1;
+  filter: blur(20px);
+  animation:  a  8s linear Infinite;
+}
+.a3{
+     
+  position: relative;
+    width: 200px;
+    height: 60px;
+    line-height:60px;
+    text-align:center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color:#fff;
+    font-size:20px;
+    border:1px solid #fff;
+    border-radius:30px;
+    transition: all 0.5s ease  ;
+}
+.a3:before{
+  content:"";
+  position: absolute;
+  background: linear-gradient(to   right,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+   background-size:400%;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 0%;
+  height: 100%;
+  transition:all 0.6s ease  ;
+  z-index: -1;
+  border-radius:30px;
+}
+.a3:after{
+   content:"";
+   background: linear-gradient(to   right,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size:400%;
+  position: absolute;
+  top:-5px;
+  right: -5px;
+  left: -5px;
+  bottom:-5px;
+  z-index: -1;
+  border-radius:40px;
+  filter: blur(20px);
+  opacity: 0;
+  transition:0.5s;
+}
+.a3:hover{
+  border:1px solid transparent;
+}
+.a3:hover:before{
+    width: 100%;
+  animation:  a 8s linear Infinite;
+}
+.a3:hover:after{
+    opacity: 1;
+  filter: blur(20px);
+  animation:  a  8s linear Infinite;
+}
+ 
+
+
+
