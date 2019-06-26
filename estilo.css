@@ -4,6 +4,13 @@
    left: 50%;
    transform: translate(-50%, -50%)
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
 #login {
   position : absolute;
   top: 49%;
@@ -15,4 +22,37 @@
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%)
+}
+.b1 {
+  background-color: #002b80;
+  border: none;
+  color: white;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.b2 {
+  background-color: #002b80;
+  border: none;
+  color: white;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.b3 {
+  background-color: #002b80;
+  border: none;
+  color: white;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
 }
